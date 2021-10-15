@@ -18,3 +18,8 @@
 - Headless CMS
   - Painel de administração com dados servidos por uma API
   - ex: Strapi(Conteudo Geral), Ghost(Blog), Keystone, GraphCMS, PrismacCMS, Contentful(Enterprise), Saleor, Shopify
+
+### Boas práticas
+- Formatação
+  - É interessante formatar os valores do lado do server-side (getStaticProps, getServerSideProps, fetch, axios, etc).
+  - Assim o valor só necessita ser formatado apenas uma vez.
